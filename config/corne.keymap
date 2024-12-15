@@ -62,8 +62,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 #include "combos.dtsi"  // must be sources after HRM-combo hack
 
-ZMK_CONDITIONAL_LAYER(sys, NUML_IND SYML_IND, SYSL_IND)
-
 ZMK_LAYER(base,
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮   ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
     &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSPC        
