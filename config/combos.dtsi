@@ -16,3 +16,6 @@ ZMK_COMBO(rcurly,   &kp RBRC,      RB3 RB2,     BASEL_IND, COMBO_TERM_FAST, COMB
 // <>
 ZMK_COMBO(langle,   &kp LT,        LM4 LM3,     BASEL_IND, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rangle,   &kp GT,        RM4 RM3,     BASEL_IND, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+
+// to typing layer
+ZMK_COMBO(to_type,   &tog TYPEL_IND,   LT3 LT2,     BASEL_IND, TYPEL_IND)
