@@ -66,22 +66,22 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 ZMK_MACRO(sel_red, \
     compatible = "zmk,behavior-macro"; \
     #binding-cells = <0>; \
-    bindings= <&kp S &kp B>
+    bindings= <&kp S &kp B>; \
 )
 ZMK_MACRO(sel_green, \
     compatible = "zmk,behavior-macro"; \
     #binding-cells = <0>; \
-    bindings= <&kp S &kp Z>
+    bindings= <&kp S &kp Z>; \
 )
 ZMK_MACRO(sel_blue, \
     compatible = "zmk,behavior-macro"; \
     #binding-cells = <0>; \
-    bindings= <&kp S &kp S>
+    bindings= <&kp S &kp S>; \
 )
 ZMK_MACRO(sel_orange, \
     compatible = "zmk,behavior-macro"; \
     #binding-cells = <0>; \
-    bindings= <&kp S &kp v>
+    bindings= <&kp S &kp V>; \
 )
 
 
